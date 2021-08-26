@@ -59,8 +59,6 @@ body {
     justify-content: space-evenly;
 }
 
-
-
 .site {
     margin-top: 1rem;
     background-image: linear-gradient(whitesmoke, whitesmoke), linear-gradient(lightsalmon, lightsalmon);
@@ -76,6 +74,10 @@ object {
 
 }
 
+.visit {
+    background-color: lightsalmon;
+}
+
 header {
     height: 85px;
     display: flex;
@@ -87,7 +89,9 @@ header {
     text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
     font-family: 'Times New Roman', Times, serif;
 }
-
+span{
+    color: indigo;
+}
 a {
     color: black;
     text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
